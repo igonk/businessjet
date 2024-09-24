@@ -1,0 +1,67 @@
+---
+title: Business Jet
+---
+{% import 'src/template/macrosAndVariable.html' as global %}
+{% include 'src/template/head.html' %}
+
+<body>
+	<div class="wrapper offset-header header-promo">
+		{% include 'src/template/header.html' %}
+
+		<main class="main">
+			<section class="main-hero">
+				<div class="bg-video">
+					<div class="v-overlay"></div>
+					<picture>
+						<source src="img/img-promo-fleet.jpg" srcset="img/img-promo-fleet@2x.jpg 2x" media="(min-width: 667px)" />
+						<img src="img/promo-fleet-m.jpg" srcset="img/promo-fleet-m@2x.jpg 2x" alt="" />
+					  </picture>
+				</div>
+				<div class="container">
+					<div class="hero-txt" data-aos="fade-up">
+						<h1>Fleet</h1>
+						<ul class="btn-holder">
+							<li>
+								<a class="button" href="#">Request a Quote</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<div class="advices-block">
+						<div class="advices-block__image visual-box" data-aos="fade-in">
+							<img src="img/img03.jpg" srcset="img/img03@2x.jpg 2x" alt="" />
+						</div>
+						<div class="advices-block__text" data-aos="fade-up">
+							<p>Whether you charter for business or leisure, enjoy being pampered by our highly experienced team, whose commitment to providing a safe and personalized experience ensures every flight is seamless. Explore the private jet options below to learn more about each aircraft and its capabilities.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					
+				</div>
+			</section>
+				
+			<section class="section bottom-promo">
+				<div class="bg-str">
+					<img src="img/img-bottom-promo.jpg" alt="image description" srcset="img/img-bottom-promo04@2x.jpg 2x">
+				</div>
+				<div class="container" data-aos="fade-up">
+					<h2 class="txt-light">Let’s Connect</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p><a href="#" class="button">Contact Us</a></p>
+				</div>
+			</section>
+		</main>
+
+		{% include 'src/template/footer.html' %}
+	</div>
+	{% include 'src/template/includes.html' %}
+</body>
+</html>

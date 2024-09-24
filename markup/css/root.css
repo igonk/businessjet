@@ -1,0 +1,82 @@
+:root {
+	--rem-base: 10px;
+	--base-font-size: 16px;
+	--base-line-height: 2;
+	--vertical-rhythm: calc(var(--base-line-height) * 1em);
+	--font-open-sans: "Inter";
+	--base-main-font: var(--font-open-sans);
+	--base-font-sans-serif: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	--base-font-serif: "Times New Roman", "Times", "Baskerville", "Georgia", serif;
+	--base-font: var(--base-main-font), var(--base-font-sans-serif);
+	--accent-font: var(--base-font-serif);
+	--color-white: #fff;
+	--color-black: #000;
+	--color-gray-100: #f4f4f4;
+	--color-gray-200: #d9d9d9;
+	--color-gray-300: #85919f;
+	--color-red: #f00;
+	--color-blue: #0c2340;
+	--brand-color: #0c2340;
+	--accent-color: #ffd200;
+	--btn-color: #ffd241;
+	--btn-color-add: #0c2340;
+	--base-text-color: var(--brand-color);
+	--base-link-color: var(--brand-color);
+	--h1-h6-color: var(--base-text-color);
+	--animation-duration: 0.3s;
+	--animation-timing-function: ease;
+	--container: 1310px;
+	--gutter: 25px;
+	--input-x: 25px;
+	--input-y: 15px;
+	--input-color: var(--brand-color);
+	--input-placeholder-color: var(--brand-color);
+	--input-bg-color: var(--color-gray-100);
+	--input-radius: 5px;
+	--input-border: 1px;
+	--input-border-color: transparent;
+	--input-focus-border-color: var(--color-gray-200);
+	--input-fz: 16px;
+	--input-lh: 1.2;
+	--form-theme-color: var(--brand-color);
+	--checkbox-size: 20px;
+	--radio-size: 20px;
+	--label-fz: 16px;
+	--label-lh: 1.2;
+	--label-color: currentColor;
+	--error-color: var(--color-red);
+	--error-bg-color: var(--color-red);
+	--form-col-gutter: 30px;
+	--form-row-margin: var(--form-col-gutter) * 1.5;
+	--h1: 6rem;
+	--h2: 5rem;
+	--h3: 3.6rem;
+	--h4: 3rem;
+	--h5: 20px;
+	--h6: 16px;
+}
+@media (max-width: 767px) {
+	:root {
+		--input-x: 20px;
+		--input-y: 12px;
+		--base-font-size: 14px;
+	}
+	:root {
+		--h1: 30px;
+		--h2: 26px;
+		--h3: 26px;
+		--h4: 26px;
+		--h5: 17px;
+		--h6: 16px;
+	}
+}
+@media (max-width: 666px) {
+	:root {
+		--gutter: 20px;
+	}
+}
+@media (min-width: 812px) and (max-height: 414px) and (orientation: landscape) {
+	:root {
+		--gutter: 50px;
+	}
+}
